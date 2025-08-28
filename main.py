@@ -7,6 +7,19 @@ import os
 import logging
 from io import BytesIO
 import docx
+import tiktoken
+
+def truncate_text_to_tokens(text: str, max_tokens: int = 6000) -> str:
+    """Skraca tekst tak, aby nie przekroczyć limitu tokenów modelu GPT."""
+    encoding = tiktoken.encoding_for_model("gpt-4o")
+    tokens = encoding.encode(text)
+    if len(tokens) > max_tokens:
+        truncated = tokens[:max_tokens]
+        return encoding.decode(truncated)
+    return text
+def count_tokens(text: str, model: str = "gpt-4o") -> int:
+    encoding = tiktoken.encoding_for_model(model)
+    return len(encoding.encode(text))
 
 # === Init FastAPI + load env ===
 app = FastAPI()
@@ -41,6 +54,11 @@ Przeanalizuj poniższy szablon umowy. Podaj:
 Szablon:
 {text}
 """
+    # Count and print number of tokens before truncation
+    print("🔎 Tokeny w oryginalnym dokumencie:", count_tokens(text))
+
+    # Truncate long text
+    text = truncate_text_to_tokens(text)
 
     response = client.chat.completions.create(
         model="gpt-4o",
