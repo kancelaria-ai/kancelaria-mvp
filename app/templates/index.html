@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Analiza dokumentu DOCX</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #f9f9f9;
+            padding: 2rem;
+            text-align: center;
+        }
+        .box {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        input[type="file"] {
+            margin-top: 1rem;
+        }
+        button {
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1a242f;
+        }
+        .download-buttons {
+            margin-top: 2rem;
+        }
+        .download-buttons form {
+            display: inline-block;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Prześlij dokument DOCX do analizy</h1>
+
+        <!-- Formularz HTML -->
+        <form action="/analyze-template-html" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".docx" required>
+            <br>
+            <button type="submit">Analizuj i wyświetl jako HTML</button>
+        </form>
+
+        <div class="download-buttons">
+            <form action="/analyze-template-json" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".docx" required>
+                <br>
+                <button type="submit">Pobierz jako JSON</button>
+            </form>
+
+            <form action="/analyze-template-txt" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".docx" required>
+                <br>
+                <button type="submit">Pobierz jako TXT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
