@@ -23,7 +23,6 @@ Zanalizuj następujący tekst umowy i wygeneruj analizę w formacie JSON zawiera
 - "issues_found": Lista potencjalnych problemów prawnych
 - "risks": Lista ryzyk dla klienta
 - "recommendations": Lista rekomendacji
-- "fields_to_fill": Lista miejsc w umowie do uzupełnienia (np. [imię], [data])
 
 Tekst umowy:
 {text}
@@ -59,5 +58,4 @@ Tekst umowy:
             "issues_found": [],
             "risks": [],
             "recommendations": [],
-            "fields_to_fill": []
         }

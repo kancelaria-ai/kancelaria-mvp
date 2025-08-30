@@ -58,3 +58,1157 @@ Alternatively, you can pin your installation to the old version, e.g. `pip insta
 
 A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
 
+2025-08-29 16:38:07,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:38:07,643 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-29 16:38:07,643 - INFO - RESPONSE:
+{
+    "contract_type": "Umowa o zachowaniu poufnoœci",
+    "summary": "Umowa o zachowaniu poufnoœci (NDA) miêdzy dwiema stronami, której celem jest ochrona informacji poufnych przekazanych lub udostêpnionych w celu realizacji okreœlonego projektu. Umowa okreœla, co jest uwa¿ane za informacje poufne, kto mo¿e je otrzymaæ, jakie s¹ obowi¹zki odbiorcy i jak d³ugo obowi¹zuj¹ zobowi¹zania dotycz¹ce poufnoœci. Zawiera równie¿ postanowienia dotycz¹ce ochrony danych osobowych, zmian umowy, cesji i prawa w³aœciwego.",
+    "key_clauses": [
+        "Definicja informacji poufnych",
+        "Obowi¹zki odbiorcy informacji poufnych",
+        "Okres poufnoœci",
+        "Zasady udostêpniania informacji poufnych",
+        "Zasady ochrony danych osobowych",
+        "Zasady zmiany umowy",
+        "Zasady cesji",
+        "Prawo w³aœciwe"
+    ],
+    "issues_found": [
+        "Brak okreœlonego okresu poufnoœci",
+        "Brak konkretnej definicji 'Celu' umowy",
+        "Brak szczegó³ów dotycz¹cych konsekwencji naruszenia umowy"
+    ],
+    "risks": [
+        "Potencjalne naruszenie umowy przez odbiorcê informacji poufnych",
+        "Ryzyko niew³aœciwego u¿ycia informacji poufnych",
+        "Ryzyko niew³aœciwego przechowywania informacji poufnych"
+    ],
+    "recommendations": [
+        "Dodaæ konkretne okreœlenie 'Celu' umowy",
+        "Dodaæ konkretne okreœlenie okresu poufnoœci",
+        "Dodaæ szczegó³owe postanowienia dotycz¹ce konsekwencji naruszenia umowy"
+    ],
+    "fields_to_fill": [
+        "DANE DO UZUPE£NIENIA",
+        "Adres e-mail dla powiadomieñ"
+    ]
+}
+2025-08-29 16:44:46,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:44:46,455 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-29 16:44:46,455 - INFO - RESPONSE:
+{
+    "contract_type": "Umowa o zachowaniu poufnoœci",
+    "summary": "Umowa o zachowaniu poufnoœci (NDA) jest umow¹ miêdzy dwiema stronami, która okreœla informacje, które strony chc¹ utrzymaæ w tajemnicy i ogranicza ich u¿ycie. W umowie okreœlono, co stanowi informacje poufne, kto mo¿e je otrzymaæ, obowi¹zki odbiorcy, okres poufnoœci i inne warunki.",
+    "key_clauses": [
+        "Definicja Informacji Poufnych",
+        "Uprawnieni Odbiorcy Informacji Poufnych",
+        "Obowi¹zki Odbiorcy",
+        "Okres Poufnoœci",
+        "Ochrona danych osobowych",
+        "Zawarcie Umowy i jej zmiany",
+        "Cesja",
+        "Brak przeniesienia praw",
+        "Brak zobowi¹zañ lub gwarancji",
+        "Prawo w³aœciwe"
+    ],
+    "issues_found": [],
+    "risks": [
+        "Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.",
+        "Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku."
+    ],
+    "recommendations": [
+        "Upewnij siê, ¿e obie strony rozumiej¹, co stanowi informacje poufne.",
+        "Upewnij siê, ¿e obie strony rozumiej¹ swoje obowi¹zki i odpowiedzialnoœci wynikaj¹ce z umowy.",
+        "Upewnij siê, ¿e okres poufnoœci jest jasno okreœlony i akceptowalny dla obu stron.",
+        "Upewnij siê, ¿e obie strony zrozumia³y i zaakceptowa³y warunki dotycz¹ce ochrony danych osobowych.",
+        "Upewnij siê, ¿e obie strony zrozumia³y i zaakceptowa³y warunki dotycz¹ce zawarcia i zmiany umowy."
+    ],
+    "fields_to_fill": [
+        "DANE DO UZUPE£NIENIA"
+    ]
+}
+2025-08-29 16:49:37,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:49:37,778 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-29 16:49:37,778 - INFO - RESPONSE:
+{
+  "contract_type": "Umowa o zachowaniu poufnoœci",
+  "summary": "Umowa o zachowaniu poufnoœci (NDA) miêdzy dwiema stronami, które zobowi¹zuj¹ siê do nieujawniania informacji poufnych, które s¹ udostêpniane miêdzy nimi. Umowa zawiera szczegó³owe definicje informacji poufnych, zasady ich udostêpniania, obowi¹zki odbiorcy, okres poufnoœci oraz inne warunki.",
+  "key_clauses": [
+    "Definicja informacji poufnych",
+    "Zasady udostêpniania informacji poufnych",
+    "Obowi¹zki odbiorcy informacji poufnych",
+    "Okres poufnoœci",
+    "Zasady powiadamiania o naruszeniu umowy",
+    "Zasady przekazywania praw i obowi¹zków wynikaj¹cych z umowy",
+    "Zasady ochrony danych osobowych",
+    "Zasady zmiany umowy"
+  ],
+  "issues_found": [],
+  "risks": [
+    "Odpowiedzialnoœæ za naruszenie umowy przez uprawnionych odbiorców",
+    "Koniecznoœæ zniszczenia lub usuniêcia wszelkich posiadanych informacji poufnych na ¿¹danie ujawniaj¹cego"
+  ],
+  "recommendations": [
+    "Upewniæ siê, ¿e wszyscy uprawnieni odbiorcy s¹ œwiadomi i zrozumiej¹ warunki umowy",
+    "Zapewniæ odpowiednie zabezpieczenia dla przechowywania informacji poufnych",
+    "Regularnie aktualizowaæ adresy e-mail do powiadomieñ"
+  ],
+  "fields_to_fill": [
+    "Dane do uzupe³nienia"
+  ]
+}
+2025-08-29 16:50:36,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:50:36,726 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-29 16:50:36,726 - INFO - RESPONSE:
+{
+  "contract_type": "Umowa o zachowaniu poufnoœci",
+  "summary": "Umowa o zachowaniu poufnoœci (NDA) miêdzy dwiema stronami, która reguluje przekazywanie, udostêpnianie i ochronê informacji poufnych. Umowa zawiera szczegó³owe definicje informacji poufnych, podmiotów powi¹zanych i uprawnionych odbiorców. Okreœla równie¿ obowi¹zki odbiorcy w zakresie ochrony informacji poufnych, a tak¿e warunki udostêpniania tych informacji. Umowa zawiera równie¿ postanowienia dotycz¹ce ochrony danych osobowych, formy zawarcia i zmian umowy, cesji praw i obowi¹zków oraz prawa w³aœciwego.",
+  "key_clauses": [
+    "Definicja informacji poufnych",
+    "Obowi¹zki odbiorcy informacji poufnych",
+    "Warunki udostêpniania informacji poufnych",
+    "Ochrona danych osobowych",
+    "Forma zawarcia i zmian umowy",
+    "Cesja praw i obowi¹zków",
+    "Brak przeniesienia praw w³asnoœci intelektualnej",
+    "Brak zobowi¹zañ lub gwarancji",
+    "Prawo w³aœciwe"
+  ],
+  "issues_found": [
+    "Brak definicji 'Celu', który jest kluczowy dla zrozumienia zakresu umowy",
+    "Brak okreœlenia 'Okresu Poufnoœci', który jest kluczowy dla zrozumienia czasu trwania obowi¹zków",
+    "Brak szczegó³ów dotycz¹cych konsekwencji naruszenia umowy"
+  ],
+  "risks": [
+    "Ryzyko naruszenia umowy przez odbiorcê informacji poufnych",
+    "Ryzyko niew³aœciwego zrozumienia 'Celu' i 'Okresu Poufnoœci' z powodu braku ich definicji",
+    "Ryzyko niew³aœciwej ochrony danych osobowych",
+    "Ryzyko niejasnoœci co do konsekwencji naruszenia umowy"
+  ],
+  "recommendations": [
+    "Dodaæ definicjê 'Celu' i 'Okresu Poufnoœci'",
+    "Dodaæ szczegó³owe postanowienia dotycz¹ce konsekwencji naruszenia umowy",
+    "Zapewniæ, ¿e obie strony zrozumia³y i zaakceptowa³y wszystkie postanowienia umowy"
+  ],
+  "fields_to_fill": [
+    "DANE DO UZUPE£NIENIA"
+  ]
+}
+2025-08-29 16:51:18,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:51:18,336 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-29 16:51:18,336 - INFO - RESPONSE:
+{
+  "contract_type": "Umowa o zachowaniu poufnoœci",
+  "summary": "Umowa o zachowaniu poufnoœci reguluje zasady przekazywania, ochrony i wykorzystania informacji poufnych miêdzy stronami. Zawiera postanowienia dotycz¹ce definicji informacji poufnych, obowi¹zków odbiorcy, zasad udostêpniania informacji poufnych, ochrony danych osobowych, a tak¿e zasady zmiany, przenoszenia praw i obowi¹zków wynikaj¹cych z umowy.",
+  "key_clauses": [
+    "Definicja informacji poufnych",
+    "Obowi¹zki odbiorcy informacji poufnych",
+    "Zasady udostêpniania informacji poufnych",
+    "Ochrona danych osobowych",
+    "Zasady zawarcia i zmiany umowy",
+    "Zasady przenoszenia praw i obowi¹zków wynikaj¹cych z umowy"
+  ],
+  "issues_found": [
+    "Brak konkretnych danych stron umowy do uzupe³nienia",
+    "Brak konkretnego okresu poufnoœci"
+  ],
+  "risks": [
+    "Ryzyko naruszenia umowy przez uprawnionych odbiorców",
+    "Ryzyko niew³aœciwego zabezpieczenia informacji poufnych",
+    "Ryzyko niezgodnoœci z przepisami o ochronie danych osobowych"
+  ],
+  "recommendations": [
+    "Uzupe³nienie danych stron umowy",
+    "Okreœlenie konkretnego okresu poufnoœci",
+    "Zabezpieczenie informacji poufnych zgodnie z postanowieniami umowy",
+    "Zapewnienie zgodnoœci z przepisami o ochronie danych osobowych"
+  ],
+  "fields_to_fill": [
+    "Dane do uzupe³nienia",
+    "Okres poufnoœci"
+  ]
+}
+2025-08-29 16:51:36,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:51:36,832 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-29 16:51:36,832 - INFO - RESPONSE:
+{
+  "contract_type": "Umowa o zachowaniu poufnoœci",
+  "summary": "Umowa o zachowaniu poufnoœci reguluje przekazywanie i udostêpnianie informacji poufnych pomiêdzy stronami. Okreœla, co jest uwa¿ane za informacje poufne, kto mo¿e je otrzymaæ, jakie s¹ obowi¹zki odbiorcy oraz jak d³ugo trwaj¹ zobowi¹zania dotycz¹ce poufnoœci. Umowa zawiera tak¿e postanowienia dotycz¹ce ochrony danych osobowych, zmian umowy, cesji, przeniesienia praw i gwarancji.",
+  "key_clauses": [
+    "Definicja informacji poufnych",
+    "Zasady udostêpniania informacji poufnych",
+    "Obowi¹zki odbiorcy informacji poufnych",
+    "Okres poufnoœci",
+    "Zasady przekazywania powiadomieñ",
+    "Ochrona danych osobowych",
+    "Zasady zawierania i zmiany umowy",
+    "Zasady cesji",
+    "Zasady przeniesienia praw",
+    "Brak zobowi¹zañ lub gwarancji"
+  ],
+  "issues_found": [
+    "Brak szczegó³owych informacji o konsekwencjach naruszenia umowy",
+    "Brak szczegó³owych informacji o procedurach rozwi¹zywania sporów"
+  ],
+  "risks": [
+    "Ryzyko naruszenia umowy przez drug¹ stronê",
+    "Ryzyko niew³aœciwego wykorzystania informacji poufnych",
+    "Ryzyko niezrozumienia lub nieznajomoœci obowi¹zków wynikaj¹cych z umowy"
+  ],
+  "recommendations": [
+    "Dok³adne przeczytanie i zrozumienie umowy",
+    "Uzyskanie porady prawnej w razie jakichkolwiek w¹tpliwoœci",
+    "Dok³adne wype³nienie wszystkich pól do uzupe³nienia",
+    "Zachowanie kopii umowy"
+  ],
+  "fields_to_fill": [
+    "Dane do uzupe³nienia"
+  ]
+}
+2025-08-30 09:10:21,398 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-30 09:10:21,407 - INFO - PROMPT:
+
+Zanalizuj nastêpuj¹cy tekst umowy i wygeneruj analizê w formacie JSON zawieraj¹cym:
+- "contract_type": Typ umowy
+- "summary": Krótkie podsumowanie umowy
+- "key_clauses": Lista najwa¿niejszych postanowieñ
+- "issues_found": Lista potencjalnych problemów prawnych
+- "risks": Lista ryzyk dla klienta
+- "recommendations": Lista rekomendacji
+- "fields_to_fill": Lista miejsc w umowie do uzupe³nienia (np. [imiê], [data])
+
+Tekst umowy:
+
+
+
+
+	
+Wzór umowy o zachowaniu poufnoœci przygotowa³a grupa prawniczek i prawników dzia³aj¹cych w ramach projektu prowadzonego przez Fundacjê LegalTech Polska. 
+
+Jakie by³y nasze za³o¿enia?
+• standaryzacja, 
+• prostota, 
+• u³atwienie w zawieraniu umów przez przedsiêbiorców, 
+• przejrzystoœæ, 
+• elastycznoœæ. 
+
+W jaki sposób mo¿na korzystaæ ze wzoru? 
+
+Wzór umowy jest dostêpny dla ka¿dego za darmo. Mo¿na z niego korzystaæ, kopiowaæ, modyfikowaæ i rozpowszechniaæ go w dowolny sposób, pod warunkiem dzia³ania zgodnie z prawem. 
+
+Modyfikacja wzoru mo¿e byæ niezbêdna zw³aszcza w przypadku skomplikowanych i wymagaj¹cych projektów, dla których za³o¿enia wzoru nie bêd¹ wystarczaj¹ce. 
+
+Je¿eli wprowadzaj¹ Pañstwo zmiany we wzorze, prosimy o usuniêcie logo Fundacji LegalTech Polska. 
+ 
+
+UMOWA O ZACHOWANIU POUFNOŒCI
+
+
+STRONY UMOWY
+
+
+DANE DO UZUPE£NIENIA
+
+
+WARUNKI UMOWY O ZACHOWANIU POUFNOŒCI
+
+Czym s¹ Informacje Poufne?
+
+Informacje Poufne oznaczaj¹ informacje, które zosta³y przekazane lub udostêpnione:
+
+w zwi¹zku z realizacj¹ Celu, niezale¿nie od formy, sposobu lub noœnika, na którym zosta³y utrwalone,
+
+przez Stronê Umowy (Ujawniaj¹cy) lub w imieniu Ujawniaj¹cego przez jego upowa¿nionych przedstawicieli lub jego Podmioty Powi¹zane,
+
+drugiej Stronie Umowy (Odbiorca), jej Podmiotom Powi¹zanym lub Uprawnionym Odbiorcom.
+
+Podmioty Powi¹zane oznaczaj¹ jakikolwiek podmiot, który bezpoœrednio lub poœrednio kontroluje, jest kontrolowany, jest pod wspóln¹ kontrol¹ lub w inny sposób znajduje siê w tej samej grupie podmiotów, co Strona Umowy. Kontrola oznacza bezpoœredni¹ lub poœredni¹ w³asnoœæ ponad 50% udzia³ów lub akcji z prawem g³osu w podmiocie, którego dotyczy. 
+
+Uprawnieni Odbiorcy oznaczaj¹ Podmioty Powi¹zane z Odbiorc¹ oraz kadrê zarz¹dzaj¹c¹, pracowników, wspó³pracowników, przedstawicieli, doradców, agentów i podwykonawców Odbiorcy lub jego Podmiotów Powi¹zanych.
+
+Informacje Poufne nie obejmuj¹ informacji, które s¹:
+
+publicznie dostêpne na skutek innych zdarzeñ ni¿ naruszenie Umowy,
+
+znane Odbiorcy lub Uprawnionym Odbiorcom w chwili przekazania lub udostêpnienia,
+
+uzyskane przez Odbiorcê lub Uprawnionych Odbiorców od osoby trzeciej zgodnie z prawem i bez naruszenia obowi¹zku zachowania poufnoœci,
+
+niezale¿nie opracowane przez Odbiorcê lub
+
+wyraŸnie wskazane przez Ujawniaj¹cego jako informacje, które nie s¹ poufne.
+
+Komu mogê udostêpniæ Informacje Poufne?
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne Uprawnionym Odbiorcom, ale tylko wtedy, gdy Uprawnieni Odbiorcy:
+
+potrzebuj¹ ich do realizacji Celu i tylko tak je wykorzystaj¹, oraz
+
+zgodzili siê na zachowanie ich w poufnoœci i ograniczenie ich wykorzystania w takim samym zakresie jak Odbiorca albo na innej podstawie s¹ zobowi¹zani do zachowania poufnoœci co najmniej w takim samym zakresie.
+
+
+Odbiorca jest odpowiedzialny za naruszenie Umowy oraz za wszelkie dzia³ania lub zaniechania Uprawnionego Odbiorcy, które stanowi³yby naruszenie Umowy, gdyby Uprawniony Odbiorca by³ jej stron¹.
+
+Odbiorca mo¿e udostêpniæ Informacje Poufne, jeœli jest to konieczne na podstawie przepisów prawa, ale - o ile nie jest to zabronione przez prawo - musi niezw³ocznie powiadomiæ Ujawniaj¹cego o takim obowi¹zku.
+
+Jakie s¹ moje obowi¹zki?
+
+Odbiorca ma obowi¹zek:
+
+wykorzystywaæ Informacje Poufne wy³¹cznie do realizacji Celu,
+
+zapewniæ bezpieczeñstwo i poufnoœæ Informacji Poufnych oraz ujawniaæ je wy³¹cznie w zakresie dozwolonym przez Umowê,
+
+niezw³ocznie powiadomiæ Ujawniaj¹cego, jeœli dowie siê o naruszeniu Umowy,
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego, przedstawiæ mu informacjê o podmiotach, którym zosta³y ujawnione Informacje Poufne, oraz
+
+w ci¹gu czternastu dni od kiedy otrzyma ¿¹danie Ujawniaj¹cego przedstawiæ mu dokumentowe potwierdzenie zniszczenia lub usuniêcia wszelkich posiadanych Informacji Poufnych. Ten obowi¹zek nie dotyczy Informacji Poufnych, które:
+
+s¹ bezpiecznie przechowywane w systemach archiwizacji danych lub komputerowych kopiach zapasowych i nie bêd¹ pobierane z tych systemów,
+
+s¹ niezbêdne, aby wype³niæ obowi¹zki prawne,
+
+s¹ konieczne do ochrony prawnie uzasadnionych interesów Odbiorcy,
+
+pod warunkiem przestrzegania postanowieñ Umowy.
+
+Jak d³ugo trwaj¹ moje zobowi¹zania?
+
+Zobowi¹zania dotycz¹ce poufnoœci trwaj¹ od czasu przekazania lub udostêpnienia Informacji Poufnych przez ca³y Okres Poufnoœci.
+
+Pozosta³e warunki
+
+Powiadomienia. Strony bêd¹ przesy³aæ zawiadomienia dotycz¹ce Umowy na piœmie lub w formie wiadomoœci e-mail na adres znajduj¹cy siê na pierwszej stronie Umowy. Strony bêd¹ aktualizowaæ adresy e-mail poprzez mailowe powiadomienie drugiej Strony.
+
+Ochrona danych osobowych. Je¿eli w zwi¹zku z realizacj¹ Umowy Strony bêd¹ sobie udostêpniaæ lub powierzaæ dane osobowe, s¹ zobowi¹zane do przestrzegania w³aœciwych przepisów prawa.
+
+Zawarcie Umowy i jej zmiany. Zawarcie i zmiany Umowy dla swojej wa¿noœci wymagaj¹ formy pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego).
+
+Cesja. ¯adna ze Stron nie mo¿e przenieœæ praw i obowi¹zków wynikaj¹cych z Umowy na jakikolwiek podmiot, bez uprzedniej pisemnej lub dokumentowej (z u¿yciem dowolnego podpisu elektronicznego) zgody drugiej Strony.
+
+Brak przeniesienia praw. Umowa nie mo¿e byæ interpretowana jako przeniesienie jakichkolwiek praw przez Ujawniaj¹cego na Odbiorcê. Dotyczy to w szczególnoœci praw w³asnoœci intelektualnej.
+
+Brak zobowi¹zañ lub gwarancji. Umowa nie tworzy ¿adnych zobowi¹zañ Stron do realizacji Celu lub dalszej wspó³pracy miêdzy Stronami. Ujawniaj¹cy nie udziela Odbiorcy ¿adnych gwarancji w zwi¹zku z tym, ¿e przekazuje lub udostêpnia mu Informacje Poufne.
+
+Prawo w³aœciwe. Do Umowy i jej wykonania zastosowanie ma prawo polskie.
+
+
+
+
+
+2025-08-30 09:10:21,407 - INFO - RESPONSE:
+{
+  "contract_type": "Umowa o zachowaniu poufnoœci",
+  "summary": "Umowa o zachowaniu poufnoœci ma na celu ochronê informacji poufnych przekazywanych miêdzy stronami umowy. Okreœla ona, co jest uwa¿ane za informacje poufne, kto mo¿e je otrzymaæ, jakie s¹ obowi¹zki odbiorcy oraz jak d³ugo trwaj¹ zobowi¹zania dotycz¹ce poufnoœci.",
+  "key_clauses": [
+    "Definicja informacji poufnych",
+    "Zasady udostêpniania informacji poufnych",
+    "Obowi¹zki odbiorcy informacji poufnych",
+    "Okres poufnoœci",
+    "Zasady ochrony danych osobowych",
+    "Zasady zawarcia i zmian umowy",
+    "Zasady cesji",
+    "Brak przeniesienia praw",
+    "Brak zobowi¹zañ lub gwarancji",
+    "Prawo w³aœciwe"
+  ],
+  "issues_found": [
+    "Brak szczegó³ów dotycz¹cych konsekwencji naruszenia umowy",
+    "Brak szczegó³ów dotycz¹cych rozwi¹zania umowy"
+  ],
+  "risks": [
+    "Ryzyko naruszenia umowy przez odbiorcê informacji poufnych",
+    "Ryzyko niezgodnoœci z przepisami o ochronie danych osobowych",
+    "Ryzyko niejasnoœci co do definicji informacji poufnych"
+  ],
+  "recommendations": [
+    "Dodanie klauzuli dotycz¹cej konsekwencji naruszenia umowy",
+    "Dodanie klauzuli dotycz¹cej rozwi¹zania umowy",
+    "Dok³adne okreœlenie, co jest uwa¿ane za informacje poufne"
+  ],
+  "fields_to_fill": [
+    "Dane do uzupe³nienia"
+  ]
+}
